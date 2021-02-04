@@ -1,0 +1,41 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+section.main {
+    width: 50%;
+    float: left;
+}
+
+div.temp {
+    width: 300px;
+    padding: 10px;
+}
+
+div#textarea {
+    width: 400px;
+    padding: 10px;
+}
+
+input {
+    float: right;
+    width: 150px;
+}
+
+input.radio {
+    float: none;
+    width: auto;
+}
+
+div.radio {
+    float: right;
+    width: 150px;
+}
+
+select {
+    float: right;
+    width: 150px;
+}
+
+textarea {
+    float: right;
+}

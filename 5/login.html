@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/inlog.css"
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Burton login</title>
+    <style>
+    </style>
+</head>
+<body>
+<h1>Inloggen:</h1>
+<form action="https://www.savatarian.com/html5/form.php" method="get">
+    <section class="main">
+        <div class="temp">
+            <label for="firstname"> Firstname: </label>
+            <input type="text" name="firstname" id="firstname">
+        </div>
+        <div class="temp">
+            <label for="middlename"> Middle name:</label>
+            <input type="text" name="middlename" id="middlename">
+        </div>
+        <div class="temp">
+            <label for="lastname"> Lastname: </label>
+            <input type="text" name="lastname" id="lastname">
+        </div>
+        <div class="temp">
+            <label>Gender: </label>
+            <div class="radio">
+                <input class="radio" type="radio" name="gender" value="man">
+                &nbsp;Man
+                <input class="radio" type="radio" name="woman" value="woman">
+                &nbsp;Woman
+            </div>
+        </div>
+        <div class="temp">
+            <label for="eyecolor">Eye color:</label>
+            <select name="eyecolor" id="eyecolor">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+            </select>
+        </div>
+        <div class="temp">
+            <label for="dob">Date of birth:</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+        <div id="textarea">
+            <label for="description">Description:</label>
+            <textarea name="description" id="description" style="height: 100px;width: 250px"></textarea>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="temp">
+            <label>Nice food:</label>
+            <div class="radio">
+                <input class="radio" type="checkbox" name="goodfood" value="spinage">
+                &nbsp;Spinage <br>
+                <input class="radio" type="checkbox" name="goodfood" value="potatoe">
+                &nbsp;Potatoes <br>
+                <input class="radio" type="checkbox" name="goodfood" value="hamburger">
+                &nbsp;Hamburger
+            </div>
+        </div>
+    </section>
+
+    <section id="bottom">
+        <div class="temp">
+            <input type="submit" name="submit-knop" value="OK">
+            <input type="reset" name="annuleer-knop" value="Annuleer">
+        </div>
+    </section>
+</form>
+</body>
+</html>
